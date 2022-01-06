@@ -1,14 +1,17 @@
 {
   "name": "react-weather-forecast",
+  "homepage": "https://myusername.github.io/my-app",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "dotenv": "^10.0.0",
+    "gh-pages": "^3.2.3",
     "moment": "^2.29.1",
     "moment-timezone": "^0.5.34",
     "next": "12.0.7",
